@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+*{
+    padding:0px;
+    margin:0px;
+}
+
+.box{
+    margin:50px 20px 16px 20px;
+    padding:10px;
+}
+
+.header-box{
+    background-color:rgb(255, 169, 82);
+    width:100%;
+    height:65px;
+}
+
+.heading{
+    color:black;
+    font-size:30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.r-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.c-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Text Info */
+.box-container{
+    padding:5px;
+    margin:0px 50px;
+}
+
+.box-container h1{
+    text-align: center;
+}
+
+/* TextArea */
+
+.Text-Area{
+    padding:10px;
+    margin: 5px 50px;
+    font-size:30px;
+    width:75%;
+    text-align: center;
+}
+
+/* Input */
+.input-box{
+    margin:33px 0px;
+    width: 300px;
+    height: 25px;
+    font-size:21px;
+    border-radius: 4px;
+    padding:8px;
+}
+
+.min-height{
+    min-height: 310px;
+}
+
+/*Footer*/
+.footer-box{
+    background-color:rgb(86, 36, 36);
+    color:rgb(255, 255, 255);
+    position:fixed;
+    bottom:0px;
+    width:100%;
+    font-size:17px;
+}
+
+
+
+/*popup */
+.portal-box{
+    background-color: rgba(0, 0, 0, 0.8);
+    position:fixed;
+    top:0px;
+    left:0px;
+    z-index: 100;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:100vh;
+}
+
+.portal-container{
+    width:600px;
+    height:330px;
+    background-color: white;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.portal-info{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    width:40%;
+}
+
+.p-box{
+    margin:30px;
+}
+
+button{
+    background-color: rgb(255, 72, 0);
+    color:rgb(255, 255, 255);
+    padding :5px;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 600px) {
+    .Text-Area{
+        font-size:24px;
+        width:80%;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    .Text-Area{
+        font-size:20px;
+        width:80%;
+    }
+  }
